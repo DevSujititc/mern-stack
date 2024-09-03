@@ -1,3 +1,3 @@
 # MERN Stack Projects
 
-** 1. Food Delivery App **
+1. Food Delivery App
