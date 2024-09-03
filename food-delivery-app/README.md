@@ -9,6 +9,7 @@ This project is a comprehensive food delivery application developed using React 
 - **Frontend Food Delivery Website**
   - Responsive design for various devices
   - User authentication with Sign In / Sign Up components
+  - Category and Filter Options for Listings
   - Cart page for managing food items
   - Place order page with payment integration
 
@@ -16,6 +17,7 @@ This project is a comprehensive food delivery application developed using React 
   - RESTful API with Express
   - MongoDB Atlas for database management
   - User authentication (login & registration)
+  - CRUD operations for category
   - CRUD operations for food items
   - Order status update functionality
 
@@ -50,8 +52,63 @@ This project is a comprehensive food delivery application developed using React 
 - MongoDB Atlas account
 - Stripe account
 
-### Clone the Repository
+### Frontend
+
+1. Navigate to the frontend directory:
 
 ```bash
-git clone https://github.com/yourusername/food-delivery-app.git
-cd food-delivery-app
+cd frontend
+```
+2. Install dependencies:
+
+```bash
+npm install
+```
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+### Backend
+
+1. Navigate to the backend directory:
+
+```bash
+cd backend
+```
+2. Install dependencies:
+
+```bash
+npm install
+```
+3. Start the development server:
+
+```bash
+npm run dev
+```
+### Admin
+
+1. Navigate to the admin directory:
+
+```bash
+cd admin
+```
+2. Install dependencies:
+
+```bash
+npm install
+```
+3. Start the development server:
+
+```bash
+npm run server
+```
+
+
+### Usage
+**1. Frontend:** Open your browser and go to http://localhost:5173 to view the food delivery app.
+
+**2. Admin Panel:** Access the admin panel through http://localhost:5174.
+
+**3. Backend API:** The backend server will run on http://localhost:4000 by default.
