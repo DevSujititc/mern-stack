@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Outfit;
+
+}
+
+body{
+  min-height: 100vh;
+  background-color: #fcfcfc;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+hr{
+  border: none;
+  height: 1px;
+  background-color: #a9a9a9;
+}
+
+.sidebar-content{
+  display: flex;
+  gap:50px;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-btn{
+  max-width: 120px;
+  padding: 10px;
+  border: none;
+  background-color: #000;
+  color: #fcfcfc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hidden {
+  position: absolute;
+  left: -9999px;
+}

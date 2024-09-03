@@ -1,0 +1,124 @@
+.cart{
+margin-top: 100px;
+}
+.cart-item h2{ 
+    color: #1c1c1c;
+    font-weight: 600;
+    font-size: max(2vw, 28px);
+}
+
+.cart-item-title{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: #383838;
+    font-size: max(1vw, 14px);
+}
+
+.cart-items-item{
+    margin: 10px 0px;
+    color: #1c1c1c;
+}
+
+.cart-items-item img {
+    width: 40%;
+}
+
+.cart-item hr{
+    height: 1px;
+    border-color: #e2e2e2;
+    /* border: none; */
+}
+
+.cart-items-item .delete{
+    cursor: pointer;
+    font-size: max(1.5vw, 16px);
+}
+
+.cart-bottom{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: max(12vw, 100px);
+}
+
+.cart-total h3{ 
+    color: #1c1c1c;
+    font-weight: 600;
+    font-size: max(1.5vw, 20px);
+}
+
+.cart-total-items{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+}
+.cart-total-items-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-total-items-item p{
+    color: #383838;
+}
+.cart-total-items-item b{
+    color: #1c1c1c;
+    font-weight: 500;
+    font-size: max(1.2vw, 14px);
+}
+
+.cart-total button{
+    border: none;
+    background-color: tomato;
+    color: #fff;
+    font-size: max(1.2vw, 18px);
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 7px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.promo-code p {
+    color: #1c1c1c;
+    font-weight: 500;
+    font-size: max(1vw, 14px);
+}
+.promo-code-item{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#eaeaea;
+    border-radius: 4px;
+}
+
+.promo-code-item input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 7px 10px;
+}
+
+.promo-code-item button{
+    background-color: #1c1c1c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 4px 4px 0;
+    font-size: max(1.1vw, 16px);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media (max-width: 750px){
+
+    .cart-bottom{
+        flex-direction: column-reverse;
+    }
+    .promo-code{
+        justify-content: start;
+    }
+}
